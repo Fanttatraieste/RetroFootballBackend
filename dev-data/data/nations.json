@@ -1,0 +1,262 @@
+[
+  {
+    "_id": 100,
+    "name": "Germany",
+    "worldCupTitles": 4,
+    "worldCupRunnerup": 4,
+    "worldCupThirdPlace": 4,
+    "continentalTitles": 3,
+    "continentalRunnerup": 3,
+    "continentalThirdPlace": 3
+  },
+  {
+    "_id": 101,
+    "name": "Spain",
+    "worldCupTitles": 1,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 3,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 102,
+    "name": "Soviet Union",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 1,
+    "continentalRunnerup": 3,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 103,
+    "name": "Hungary",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 2,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 104,
+    "name": "Czechoslovakia",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 2,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 1,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 2
+  },
+  {
+    "_id": 105,
+    "name": "Yugoslavia",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 2,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 106,
+    "name": "Brazil",
+    "worldCupTitles": 5,
+    "worldCupRunnerup": 2,
+    "worldCupThirdPlace": 2,
+    "continentalTitles": 9,
+    "continentalRunnerup": 12,
+    "continentalThirdPlace": 7
+  },
+  {
+    "_id": 107,
+    "name": "Argentina",
+    "worldCupTitles": 3,
+    "worldCupRunnerup": 3,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 15,
+    "continentalRunnerup": 14,
+    "continentalThirdPlace": 5
+  },
+  {
+    "_id": 108,
+    "name": "Uruguay",
+    "worldCupTitles": 2,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 15,
+    "continentalRunnerup": 6,
+    "continentalThirdPlace": 9
+  },
+  {
+    "_id": 109,
+    "name": "Colombia",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 1,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 5
+  },
+  {
+    "_id": 110,
+    "name": "Chile",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 2,
+    "continentalRunnerup": 4,
+    "continentalThirdPlace": 5
+  },
+  {
+    "_id": 111,
+    "name": "Netherlands",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 3,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 1,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 4
+  },
+  {
+    "_id": 112,
+    "name": "Italy",
+    "worldCupTitles": 4,
+    "worldCupRunnerup": 2,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 2,
+    "continentalRunnerup": 2,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 113,
+    "name": "England",
+    "worldCupTitles": 1,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 2
+  },
+  {
+    "_id": 114,
+    "name": "France",
+    "worldCupTitles": 2,
+    "worldCupRunnerup": 2,
+    "worldCupThirdPlace": 2,
+    "continentalTitles": 2,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 115,
+    "name": "Portugal",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 1,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 116,
+    "name": "Belgium",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 0,
+    "continentalRunnerup": 1,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 117,
+    "name": "Denmark",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 1,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 2
+  },
+  {
+    "_id": 118,
+    "name": "Croatia",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 1,
+    "worldCupThirdPlace": 2,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 119,
+    "name": "Austria",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 1,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 120,
+    "name": "Greece",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 1,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 121,
+    "name": "Sweden",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 1,
+    "worldCupThirdPlace": 2,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 1
+  },
+  {
+    "_id": 122,
+    "name": "Romania",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 123,
+    "name": "Bulgaria",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 124,
+    "name": "Ukraine",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  },
+  {
+    "_id": 125,
+    "name": "Belarus",
+    "worldCupTitles": 0,
+    "worldCupRunnerup": 0,
+    "worldCupThirdPlace": 0,
+    "continentalTitles": 0,
+    "continentalRunnerup": 0,
+    "continentalThirdPlace": 0
+  }
+]
