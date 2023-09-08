@@ -211,6 +211,13 @@ class APIFeatures {
               // console.log(icon.ballonDor.winner.length);
             } else ok = false;
             break;
+          case 'goldenShoe':
+            // console.log(icon.ballonDor.winner);
+            if (icon.goldenShoe.length > 0) {
+              ok = true;
+              // console.log(icon.goldenShoe.length);
+            } else ok = false;
+            break;
           case 'worldCup':
             // console.log(icon.nationalTeam.wordlCup);
             if (icon.nationalTeam.worldCup.length > 0) ok = true;
@@ -223,7 +230,11 @@ class APIFeatures {
                 ok = true;
               }
             });
-            // ok = checkClub;
+            // ok = checkClub;continentalCup
+            break;
+          case 'continentalCup':
+            if (icon.nationalTeam.continentalCup.length > 0) ok = true;
+            else ok = false;
             break;
           case 'midfielder':
             icon.positions.forEach((position) => {
@@ -245,6 +256,16 @@ class APIFeatures {
               if (position === 'forward') ok = true;
             });
             break;
+          case 'winger':
+            icon.positions.forEach((position) => {
+              if (position === 'winger') ok = true;
+            });
+            break;
+          case 'fullback':
+            icon.positions.forEach((position) => {
+              if (position === 'fullback') ok = true;
+            });
+            break;
           case 'goalkeeper':
             icon.positions.forEach((position) => {
               if (position === 'goalkeeper') ok = true;
@@ -264,11 +285,26 @@ class APIFeatures {
 
     const criteria = this.queryString.sortBy;
 
+    //continentalCup worldCup
     switch (criteria) {
       case 'ballonDor':
         icons.sort(
           (icon1, icon2) =>
             icon2.ballonDor.winner.length - icon1.ballonDor.winner.length,
+        );
+        break;
+      case 'continentalCup':
+        icons.sort(
+          (icon1, icon2) =>
+            icon2.nationalTeam.continentalCup.length -
+            icon1.nationalTeam.continentalCup.length,
+        );
+        break;
+      case 'worldCup':
+        icons.sort(
+          (icon1, icon2) =>
+            icon2.nationalTeam.worldCup.length -
+            icon1.nationalTeam.worldCup.length,
         );
         break;
       case 'nominations':
