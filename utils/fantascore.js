@@ -77,11 +77,13 @@ exports.nationScore = (nation) => {
   const goals = nation.goalsScored;
   const games = nation.gamesPlayed;
 
-  if (games >= 50 && games <= 100) score += 1;
+  if (games < 50) score += 0;
+  else if (games >= 50 && games <= 100) score += 1;
   else if (games >= 100 && games <= 149) score += 2;
   else score += 3;
 
-  if (goals >= 30 && goals <= 50) score += 1;
+  if (goals < 30) score += 0;
+  else if (goals >= 30 && goals <= 50) score += 1;
   else if (goals >= 50 && goals <= 100) score += 2;
   else score += 4;
 
