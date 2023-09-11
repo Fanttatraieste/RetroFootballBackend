@@ -27,7 +27,7 @@ exports.goalScore = (goals, position) => {
       score += 0;
   }
 
-  console.log(`Goal score is ${score}`);
+  // console.log(`Goal score is ${score}`);
 
   return score;
 };
@@ -58,7 +58,7 @@ exports.ballonDorScore = (status) => {
   score += status.ninethPlace.length * 4;
   score += status.tenthPlace.length * 2;
 
-  console.log(`Ballon dor score is ${score}`);
+  // console.log(`Ballon dor score is ${score}`);
 
   return score;
 };
@@ -87,7 +87,7 @@ exports.nationScore = (nation) => {
   else if (goals >= 50 && goals <= 100) score += 2;
   else score += 4;
 
-  console.log(`Nation score is : ${score}`);
+  // console.log(`Nation score is : ${score}`);
 
   return score;
 };
@@ -118,7 +118,7 @@ exports.teamScore = (team) => {
   score += team.uefaCupWinnersCupRunnerup.length;
   score += team.uefaSuperCup.length;
 
-  console.log(`team score is ${score} for ${team.name}`);
+  // console.log(`team score is ${score} for ${team.name}`);
 
   return score;
 };
@@ -170,7 +170,7 @@ exports.calculate = ({
   score += continentalCupTopTOT.length * 10;
   score += worldCupTopTOT.length * 10;
 
-  console.log(`Stuff score is ${score}`);
+  // console.log(`Stuff score is ${score}`);
 
   return score;
 };

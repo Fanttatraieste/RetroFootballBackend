@@ -1,6 +1,7 @@
 const morgan = require('morgan');
 const express = require('express');
 const cors = require('cors');
+const compression = require('compression');
 
 const nationRouter = require('./routes/nationRoutes');
 const teamRouter = require('./routes/teamRoutes');
@@ -10,6 +11,8 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorControllers');
 
 const app = express();
+
+app.use(compression());
 
 app.use(
   cors({
