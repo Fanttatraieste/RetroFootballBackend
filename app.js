@@ -23,12 +23,13 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 app.use((req, res, next) => {
-  console.log('hello from the middlleware xaxaxaax');
+  // console.log('hello from the middlleware xaxaxaax');
   next();
 });
 
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
+  // console.log(req.headers);
   next();
 });
 

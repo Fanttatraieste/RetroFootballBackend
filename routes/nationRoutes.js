@@ -1,5 +1,6 @@
 const express = require('express');
 const nationController = require('../controllers/nationController');
+const authController = require('../controllers/authController');
 
 const router = express.Router();
 
@@ -8,11 +9,23 @@ const router = express.Router();
 router
   .route('/')
   .get(nationController.getAllNations)
-  .post(nationController.createNation);
+  .post(
+    authController.protect,
+    authController.restrictTo('admin'),
+    nationController.createNation,
+  );
 router
   .route('/:id')
   .get(nationController.getOneNation)
-  .patch(nationController.updateNation)
-  .delete(nationController.deleteNation);
+  .patch(
+    authController.protect,
+    authController.restrictTo('admin'),
+    nationController.updateNation,
+  )
+  .delete(
+    authController.protect,
+    authController.restrictTo('admin'),
+    nationController.deleteNation,
+  );
 
 module.exports = router;
