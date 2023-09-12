@@ -1,5 +1,6 @@
 const morgan = require('morgan');
 const express = require('express');
+const serverless = require('serverless-http');
 const cors = require('cors');
 // const compression = require('compression');
 
@@ -36,10 +37,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/api/v1/nations', nationRouter);
-app.use('/api/v1/teams', teamRouter);
-app.use('/api/v1/icons', iconRouter);
-app.use('/api/v1/users', userRouter);
+app.use('/.netlify/functions/api/v1/nations', nationRouter);
+app.use('/.netlify/functions/api/v1/teams', teamRouter);
+app.use('/.netlify/functions/api/v1/icons', iconRouter);
+app.use('/.netlify/functions/api/v1/users', userRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError('Route unavailabel', 404));
@@ -47,6 +48,6 @@ app.all('*', (req, res, next) => {
 
 app.use(globalErrorHandler);
 
-module.exports = app;
+module.exports.handler = serverless(app);
 
-// commit
+// lala band
