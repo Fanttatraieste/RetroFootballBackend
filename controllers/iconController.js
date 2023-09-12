@@ -1,4 +1,4 @@
-const Icon = require('../src/model/iconModel');
+const Icon = require('../model/iconModel');
 const APIFeatures = require('../utils/apiFeatures');
 
 exports.getAllIcons = async (req, res) => {
