@@ -4,7 +4,12 @@
   "description": "the new football encyclopedia",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "nodemon server.js"
+=======
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+>>>>>>> parent of 082e25e (back un commit)
   },
   "author": "Vlad Uta",
   "license": "ISC",
