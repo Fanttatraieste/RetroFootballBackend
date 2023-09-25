@@ -15,7 +15,6 @@ const nationalTeamSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
-
   worldCup: {
     type: [Number],
     default: [],

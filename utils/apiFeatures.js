@@ -307,6 +307,18 @@ class APIFeatures {
             icon1.nationalTeam.worldCup.length,
         );
         break;
+      case 'nationalGoals':
+        icons.sort(
+          (icon1, icon2) =>
+            icon2.nationalTeam.goalsScored - icon1.nationalTeam.goalsScored,
+        );
+        break;
+      case 'nationalGames':
+        icons.sort(
+          (icon1, icon2) =>
+            icon2.nationalTeam.gamesPlayed - icon1.nationalTeam.gamesPlayed,
+        );
+        break;
       case 'nominations':
         icons.sort(
           (icon1, icon2) =>
@@ -335,6 +347,21 @@ class APIFeatures {
         break;
       case 'fantascore':
         icons.sort((icon1, icon2) => icon2.fantascore - icon1.fantascore);
+        break;
+      case 'careerGoals':
+        icons.sort((icon1, icon2) => icon2.careerGoals - icon1.careerGoals);
+        break;
+      case 'careerGames':
+        icons.sort((icon1, icon2) => icon2.careerGames - icon1.careerGames);
+        break;
+      case 'retired':
+        icons.sort((icon1, icon2) => icon1.retired - icon2.retired);
+        break;
+      case 'worldCupGoals':
+        icons.sort((icon1, icon2) => icon2.worldCupGoals - icon1.worldCupGoals);
+        break;
+      case 'careerLength':
+        icons.sort((icon1, icon2) => icon2.careerLength - icon1.careerLength);
         break;
       case 'leagueTitles':
         icons.sort((icon1, icon2) => {
