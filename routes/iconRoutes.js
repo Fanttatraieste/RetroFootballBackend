@@ -26,4 +26,6 @@ router
     iconController.deleteIcon,
   );
 
+router.route('/name/:name').get(iconController.getIconByName);
+
 module.exports = router;

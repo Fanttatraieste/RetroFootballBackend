@@ -131,6 +131,7 @@ exports.bonusPoints = (name) => {
     easyName === 'stanley matthews' ||
     easyName === 'franz beckenbauer' ||
     easyName === 'diego maradona' ||
+    easyName === 'mario kempes' ||
     easyName === 'giuseppe meazza'
   )
     return 25;

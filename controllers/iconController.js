@@ -50,6 +50,25 @@ exports.createIcon = async (req, res) => {
   }
 };
 
+exports.getIconByName = async (req, res) => {
+  try {
+    const icon = await Icon.findOne({ name: req.params.name });
+    // console.log(icon.fantascore);
+
+    res.status(201).json({
+      status: 'success',
+      data: {
+        icon,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'failed',
+      messsage: err,
+    });
+  }
+};
+
 exports.getOneIcon = async (req, res) => {
   try {
     const icon = await Icon.findById(req.params.id);
