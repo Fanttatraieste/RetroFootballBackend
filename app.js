@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://fanttatraieste.github.io/RetroFootballBackend/',
+    origin: 'http://localhost:5173',
     methods: ['GET', 'POST', 'DELETE', 'PATCH'],
   }),
 );
